@@ -5,9 +5,6 @@
 
     <data>
         <variable
-            name="dataList"
-            type="java.util.List&lt;com.imceits.aungtuntun.theomdbmovie.data.Movies>" />
-        <variable
             name="viewMoel"
             type="com.imceits.aungtuntun.theomdbmovie.ui.MovieListViewModel" />
     </data>
