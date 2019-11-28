@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/movie_graph"
+    app:startDestination="@id/movie_list">
+
+    <fragment
+        android:id="@+id/movie_list"
+        android:name="com.imceits.aungtuntun.theomdbmovie.ui.MovieListFragment"
+        android:label="Movies"
+        tools:layout="@layout/movie_list_fragment" >
+        <action
+            android:id="@+id/action_movie_list_to_movie_detail"
+            app:destination="@id/movie_detail" />
+    </fragment>
+    <fragment
+        android:id="@+id/movie_detail"
+        android:name="com.imceits.aungtuntun.theomdbmovie.ui.MovieDetailFragment"
+        android:label="Detail"
+        tools:layout="@layout/movie_detail_fragment" >
+        <argument
+            android:name="movie_id"
+            app:argType="integer"
+            android:defaultValue="0" />
+    </fragment>
+</navigation>

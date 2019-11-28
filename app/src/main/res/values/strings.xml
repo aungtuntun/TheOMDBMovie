@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">DB Movie</string>
+    <string name="movie_poster">Movie Poster</string>
+    <string name="label_casts">Casts</string>
+    <string name="cast_poster">Cast Poster</string>
+    <string name="cast_name">%s as\n %s</string>
+    <string name="language">Language</string>
+    <string name="rating">Rating</string>
+    <string name="show_time">Show time</string>
+    <string name="released_date">Released date</string>
+    <string name="overview">Overview</string>
+    <string name="shared_element">sharedView</string>
+</resources>
